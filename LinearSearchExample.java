@@ -20,7 +20,8 @@ public static int linearSearch(int[] arr, int key){
          }
          int [] a1=array;
          int key =sc.nextInt();
-        System.out.println(key+" is found at index: "+linearSearch(a1, key));    
+        System.out.println(key+" is found at index: "+linearSearch(a1, key));  
+        sc.close();  
     }    
 }
 
